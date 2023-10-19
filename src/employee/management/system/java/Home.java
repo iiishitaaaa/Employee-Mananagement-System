@@ -66,7 +66,8 @@ public class Home extends JFrame implements ActionListener{
             new ViewEmployee();
         }
         else {
-            
+            setVisible(false);
+            new RemoveEmployee();
         }
     }
     
